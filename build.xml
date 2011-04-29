@@ -1,0 +1,6 @@
+<project default="jar">
+	<target name="jar">
+		<jar destfile="../GCPlugin/lib/utils.jar" basedir="bin" includes="**/*.class">
+		</jar>
+	</target>
+</project>
